@@ -1,0 +1,16 @@
+name=tenshi
+pos=385,2492
+speed=10
+credit=75
+tx1=./assets/player/left.png
+tx2=./assets/player/right.png
+tx3=./assets/player/up.png
+tx4=./assets/player/down.png
+scale=0.5
+[MODULES]
+PSU=20
+CPE=75
+MUL=10
+MAT=10
+HUB=10
+PC=1

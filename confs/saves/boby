@@ -1,0 +1,15 @@
+name=boby
+pos=3150,1340
+speed=10
+credit=0
+tx1=./assets/player/left.png
+tx2=./assets/player/right.png
+tx3=./assets/player/up.png
+tx4=./assets/player/down.png
+score=0.5
+PSU=0
+CPE=0
+MUL=0
+MAT=0
+HUB=0
+PC=0
