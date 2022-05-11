@@ -14,13 +14,15 @@ We combined ideas and finally came up with an exact replica of Epitech Toulouse 
 
 Simply execute the commands: 
 ```bash
-sudo apt install libcsfml-dev
+sudo "..." install libcsfml-dev
 
-git clone https://github.com/epitech-simulator
+git clone git@github.com:TTENSHII/my_RPG.git
 
-cd epitech-simulator
+cd my_rpg/
 
-make exec
+make
+
+./my_rpg
 ```
 The game will start and you can play !
 
