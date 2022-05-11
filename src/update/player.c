@@ -24,7 +24,7 @@ int is_colision(global_t *global)
     is_object_colision(global);
     is_hub_colision_hub(global);
     for (npc_t *tmp = global->npc; tmp != NULL; tmp = tmp->next)
-        for (int i = 0; i <= 15; i += 1)
+        for (int i = 0; i <= 17; i += 1)
             is_npc(global, i, tmp);
     for (map_t *tmp = global->map; tmp != NULL; tmp = tmp->next) {
         if (tmp->num == 29 || tmp->num == 37 || tmp->num == 5

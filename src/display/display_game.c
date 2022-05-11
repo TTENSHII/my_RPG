@@ -143,7 +143,8 @@ void display_interface(global_t *global, sfRenderWindow *wd)
     draw_units_score(global);
     if (global->global_value->npc_id != 0 && global->global_value->npc_id <= 6
     || global->global_value->npc_id == 13 || global->global_value->npc_id == 14
-    || global->global_value->npc_id == 10 || global->global_value->npc_id == 7)
+    || global->global_value->npc_id == 10 || global->global_value->npc_id == 7
+    || global->global_value->npc_id == 16 || global->global_value->npc_id == 17)
         display_bubble_text(global, global->bubbule_text->text,
         (sfVector2f) {1920 / 2, 900}, global->bubbule_text->sftext);
     if (global->global_value->npc_id == 3 &&

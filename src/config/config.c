@@ -162,6 +162,8 @@ int start_config(global_t *global)
         return (84);
     if (init_dev_npc(global) == 84)
         return (84);
+    if (init_tek_npc(global) == 84)
+        return (84);
     if (init_aer_npc(global) == 84)
         return (84);
     if (init_all_skills(global) == 84)

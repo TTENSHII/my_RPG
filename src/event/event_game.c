@@ -86,6 +86,20 @@ void player_talk_with_npc2(global_t *global)
         global->bubbule_text->is_valid = 0;
         global->bubbule_text->text = my_strdup((char*) GWENDO_MSG);
     }
+    if (global->global_value->npc_id == 17 &&
+    sfKeyboard_isKeyPressed(sfKeyE)) {
+        sfSound_play(global->music->sound_click);
+        global->bubbule_text->index_text = 0;
+        global->bubbule_text->is_valid = 0;
+        global->bubbule_text->text = my_strdup((char*) TENSHI_MSG);
+    }
+    if (global->global_value->npc_id == 16 &&
+    sfKeyboard_isKeyPressed(sfKeyE)) {
+        sfSound_play(global->music->sound_click);
+        global->bubbule_text->index_text = 0;
+        global->bubbule_text->is_valid = 0;
+        global->bubbule_text->text = my_strdup((char*) ANTONIN_MSG);
+    }
 }
 
 void player_talk_with_npc3(global_t *global)

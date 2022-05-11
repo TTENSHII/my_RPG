@@ -39,6 +39,7 @@ void display_endgame(global_t *global);
 void update_endgame(global_t *global);
 void event_endgame(global_t *global);
 void display_help(global_t *global);
+int init_tek_npc(global_t *global);
 
 typedef struct listener_s {
     void (*func)(global_t *);

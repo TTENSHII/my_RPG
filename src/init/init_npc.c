@@ -69,6 +69,15 @@ int init_pedago_npc(global_t *global)
     return (0);
 }
 
+int init_tek_npc(global_t *global)
+{
+    if (init_pnj(SAVE_TENSHI, &global->npc, global->texts->font2) == 84)
+        return (84);
+    if (init_pnj(SAVE_ANTONIN, &global->npc, global->texts->font2) == 84)
+        return (84);
+    return (0);
+}
+
 int init_aer_npc(global_t *global)
 {
     global->global_value->npc_id = 0;

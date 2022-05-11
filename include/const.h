@@ -62,6 +62,8 @@ static const char SAVE_JEROME[] = "confs/pnj/jerome.ini";
 static const char SAVE_YANNICK[] = "confs/pnj/yannick.ini";
 static const char SAVE_THOMAS[] = "confs/pnj/thomas.ini";
 static const char SAVE_REMI[] = "confs/pnj/remi.ini";
+static const char SAVE_TENSHI[] = "confs/pnj/tenshi.ini";
+static const char SAVE_ANTONIN[] = "confs/pnj/antonin.ini";
 static const char SAVE_MARCO[] = "confs/pnj/marco.ini";
 static const char SAVE_GWENDO[] = "confs/pnj/gwendo.ini";
 static const char SAVE_ADRIEN[] = "confs/pnj/adrien.ini";
@@ -85,6 +87,8 @@ static const char NICOLAS_MSG[] = "Fais ce quizz sinon je te brise des genoux";
 static const char MARCO_MSG[] = "LASAGNE!!!!!!!!!!!!!!!!!!!!!!!!";
 static const char NATHAN_MSG[] = "Yo les reuf ca va ?";
 static const char REMI_MSG[] = "Yo mec, tu peux check mon my_putstr ?";
+static const char TENSHI_MSG[] = "Yeahhhhhhhhh boy";
+static const char ANTONIN_MSG[] = "  Feur";
 static const char GWENDO_MSG[] =
 "Salut, pour commencer l'aventure "\
 "va chercher ton ordinateur en salle pedago";
