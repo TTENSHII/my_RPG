@@ -15,10 +15,13 @@ We combined ideas and finally came up with an exact replica of Epitech Toulouse 
 
 ## How to play ?
 
+Dependencies:
+```bash
+You need to install the csfml library, git and make
+```
+
 Simply execute the commands: 
 ```bash
-sudo "..." install libcsfml-dev
-
 git clone git@github.com:TTENSHII/my_RPG.git
 
 cd my_rpg/
